@@ -5,7 +5,7 @@
   "description": "Smart home manager",
   "scripts": {
     "install:ui": "cd ui && npm install",
-    "postinstall": "npx run-p install:*",
+    "postinstall": "npm install:ui",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
