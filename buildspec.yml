@@ -5,10 +5,10 @@ phases:
     runtime-versions:
       nodejs: 10
     commands:
-      - npm install
+      - npm install:ui
   build:
     commands:
-      - npm build
+      - npm build:ui
 artifacts:
   files:
-    - dist/**/*
+    - ui/dist/**/*
