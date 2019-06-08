@@ -11,4 +11,4 @@ phases:
       - npm run build:ui
 artifacts:
   files:
-    - ui/dist/**/*
+    - ui/build/**/*
